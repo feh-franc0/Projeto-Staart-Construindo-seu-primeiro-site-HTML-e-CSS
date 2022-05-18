@@ -2,10 +2,18 @@
 
 ## MÓDULO: HTML
 
-### AULA: Elementos de Linha
+### AULA: Atributos do HTML
 
-    - links
-    - strong
-    - em
+    - lang="pt-br"              ->      define o idioma
+    - contenteditable="true"    ->      editar qualquer elemento no nosso html
+    - draggable="true"          ->      permite com que nossos elementos possam ser arrastaveis
+    - hidden="true"             ->      esconde o nosso elemento html, como se removessemos ele, mas ele ainda continua no codigo fonte do html
+    - tabindex=""              ->       ordem de navegação.
+    - title                    ->       informação/conteudo complementar               
+    - id=""                    ->       identificador unico de algum elemento
+    - class=""                 ->       identificador de diversos elementos
+    - style=""                 ->       permite estilizar nosso elemento divero pelo html
 
-`Aprendemos a usar as tags de linha no HTML`
+`Aprendemos a usar os Atributos do HTML`
+
+`Não colocamos esses atributos no nosso código para não suja-lo`
