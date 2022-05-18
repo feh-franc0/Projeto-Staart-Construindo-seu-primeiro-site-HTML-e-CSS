@@ -2,6 +2,10 @@
 
 ## MÓDULO: HTML
 
-### AULA: Elementos de Bloco
+### AULA: Elementos de Linha
 
-`Aprendemos a usar as tags semânticas no HTML`
+    - links
+    - strong
+    - em
+
+`Aprendemos a usar as tags de linha no HTML`
