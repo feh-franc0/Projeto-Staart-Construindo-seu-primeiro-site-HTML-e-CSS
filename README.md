@@ -2,18 +2,35 @@
 
 ## MÓDULO: HTML
 
-### AULA: Atributos do HTML
+### AULA: Marcação de Formulários
 
-    - lang="pt-br"              ->      define o idioma
-    - contenteditable="true"    ->      editar qualquer elemento no nosso html
-    - draggable="true"          ->      permite com que nossos elementos possam ser arrastaveis
-    - hidden="true"             ->      esconde o nosso elemento html, como se removessemos ele, mas ele ainda continua no codigo fonte do html
-    - tabindex=""              ->       ordem de navegação.
-    - title                    ->       informação/conteudo complementar               
-    - id=""                    ->       identificador unico de algum elemento
-    - class=""                 ->       identificador de diversos elementos
-    - style=""                 ->       permite estilizar nosso elemento divero pelo html
+    - <form></form>                 ->      tag onde ficará seu formulário
+    - <input>                       ->      elemento usado no form
+        - <input type="text">       ->      campo de texto
+        - <input type="hidden">     ->      esconde o compo de texto
+        - <input type="password">   ->      para por senha
+        - <input type="checkbox">   ->      quadradinhos multipla escolha
+        - <input type="radio">      ->      quadradinhos para apenas uma escolha
+        - <input type="file">       ->      enviar arquivos
+        - <input type="submit">     ->      criar button para enviar o conteudo e recarregar pagina
+        - <input type="button">     ->      button generico
+        - <input type="search">     ->      para fazer pesquisa no site
+        - <input type="tel">        ->      para numero de telefone
+        - <input type="email">      ->      para por email
+        - <input type="url">        ->      para por url
+        - <input type="date">       ->      para por datas
+        - <input type="number">     ->      numeros
+        - <input type="range">      ->      uma barra de range -+---- 
+        - <input type="color">      ->      para definir cor
 
-`Aprendemos a usar os Atributos do HTML`
 
-`Não colocamos esses atributos no nosso código para não suja-lo`
+    - <select>                      ->      selecionar opções pre definidas
+    - <textarea>                    ->      elemento para por um campo grande de texto
+    - <label></label>               ->      referenciar um elemento a outro
+    - <fieldset></fieldset>         ->      agrupa campos de formulario
+    - <legend></legend>             ->     Para por o rotulo que vai pedir dentro de <fieldset> 
+    
+
+`Aprendemos a usar os formulários no HTML`
+
+
