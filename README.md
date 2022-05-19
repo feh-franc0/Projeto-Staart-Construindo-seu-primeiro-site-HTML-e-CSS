@@ -2,35 +2,28 @@
 
 ## MÓDULO: HTML
 
-### AULA: Marcação de Formulários
+### AULA: Marcação de Vídeo
 
-    - <form></form>                 ->      tag onde ficará seu formulário
-    - <input>                       ->      elemento usado no form
-        - <input type="text">       ->      campo de texto
-        - <input type="hidden">     ->      esconde o compo de texto
-        - <input type="password">   ->      para por senha
-        - <input type="checkbox">   ->      quadradinhos multipla escolha
-        - <input type="radio">      ->      quadradinhos para apenas uma escolha
-        - <input type="file">       ->      enviar arquivos
-        - <input type="submit">     ->      criar button para enviar o conteudo e recarregar pagina
-        - <input type="button">     ->      button generico
-        - <input type="search">     ->      para fazer pesquisa no site
-        - <input type="tel">        ->      para numero de telefone
-        - <input type="email">      ->      para por email
-        - <input type="url">        ->      para por url
-        - <input type="date">       ->      para por datas
-        - <input type="number">     ->      numeros
-        - <input type="range">      ->      uma barra de range -+---- 
-        - <input type="color">      ->      para definir cor
+`Para pegar vídeo do YouTube:`
+
+    vá no vídeo do YouTube, clique em SHARE e vá na opção Embed, que te mostrara o código que você vai usar para o video na sua página
+
+`Se você tiver um vídeo que é um arquivo .mb4 que esta no seu servidor ou na sua maquina,e você quer que ele seja exibido com controle para ele rodar no seu navegador, você pode fazer isso na sua página também com alguns elementos específicos, vamos ver esses elementos:`
+
+    <video></video>             ->      por video de forma nativa no nosso navegador
+    <source src="" type="">     ->      para buscar o video e definir o tipo de midia que vamos mostrar
+
+Atributos para a nossa tag <video>:
+
+    autoplay        ->     quando a pagina terminar de carregar o video vai começar
+    muted           ->      deixa por padrao o video sem som
+    controls        ->      para habilitar os controles de video
+    poster="foto"   ->      para mostrar uma foto por padrao enquanto o video não for iniciado
 
 
-    - <select>                      ->      selecionar opções pre definidas
-    - <textarea>                    ->      elemento para por um campo grande de texto
-    - <label></label>               ->      referenciar um elemento a outro
-    - <fieldset></fieldset>         ->      agrupa campos de formulario
-    - <legend></legend>             ->     Para por o rotulo que vai pedir dentro de <fieldset> 
-    
 
-`Aprendemos a usar os formulários no HTML`
+
+
+`Aprendemos a usar a marcação de vídeo no HTML`
 
 
