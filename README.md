@@ -1,29 +1,59 @@
 # Construindo seu Primeiro Site (HTML e CSS)
 
-## MÓDULO: HTML
+## MÓDULO: CSS
 
-### AULA: Marcação de Vídeo
+### AULA: Seletores, Classes e Pseudo-classes
 
-`Para pegar vídeo do YouTube:`
+#### SELETORES:
 
-    vá no vídeo do YouTube, clique em SHARE(compartilhar) e vá na opção Embed(Incorporar), que te mostrara o código que você vai usar para o video na sua página
+`Por tag/elementos:`
 
-`Se você tiver um vídeo que é um arquivo .mb4 que esta no seu servidor ou na sua maquina,e você quer que ele seja exibido com controle para ele rodar no seu navegador, você pode fazer isso na sua página também com alguns elementos específicos, vamos ver esses elementos:`
+    h1{ color:red; }
 
-    <video></video>             ->      por video de forma nativa no nosso navegador
-    <source src="" type="">     ->      para buscar o video e definir o tipo de midia que vamos mostrar
+`Seletor universal:`
 
-Atributos para a nossa tag <video>:
+    *{color:blue;}
 
-    autoplay        ->     quando a pagina terminar de carregar o video vai começar
-    muted           ->      deixa por padrao o video sem som
-    controls        ->      para habilitar os controles de video
-    poster="foto"   ->      para mostrar uma foto por padrao enquanto o video não for iniciado
+`Seletor de um elemento que esta dentro de outro elemento:`
+
+    p strong{color:red;}
+
+`Selecionar um elemento que esta logo depois de outro elemento:`
+
+    li + li + li {padding-left:15px;}
 
 
+`Selecionar por classe:`
+
+    .sec{background-color:orange;}
+
+`Selecionar por id:`
+
+    #publicacoes{color:brown;}
+
+`Selecionar mais de um elemento usando varios tipos de seletores:`
+
+    #publicacoes, .sec, h1 {margin:20px;}
+
+`Selecionar um elemento específico que contém um atributo específico:`
+
+    a[href="#formacao"] {padding-left:50px}
 
 
+#### PSEUDO-CLASSES
 
-`Aprendemos a usar a marcação de vídeo no HTML`
+`Quando tivermos o elemento focado ou passarmos o mouse por cima do elemento o nosso elemento ele muda de cor:`
+
+    a:link {background-color: yellow;}
+    a:focus,a:hover {background-color: pink;}
+
+`Acrescenta conteúdo dentro do nosso elemento,acrescenta no inicio:`
+
+    a:before { content: "Ola " }
+
+`Acrescenta conteúdo dentro do nosso elemento,acrescenta no final:`
+
+    a:after { content: " Tchau" }
+
 
 
