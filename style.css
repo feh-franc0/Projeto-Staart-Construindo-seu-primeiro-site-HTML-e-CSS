@@ -1,9 +1,30 @@
-header h1{ 
-    border: 1px solid black; 
-    padding: 10px;
-    margin:60px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px black;
+header{
+    background-color: #E5E5E5;
+    padding: 20px;
 }
 
+h1,h2{
+    text-align: center;
+    visibility: hidden;
+}
 
+article#publicacoes{
+    background-color: #E5E5E5;
+    padding: 20px;
+}
+
+article#formacao{
+    background-image: url("http://www.reinaldoferraz.com.br/aula/reinaldo.jpg");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+article#habilidades{
+    background-color: #4387D8;
+    padding: 20px;
+}
+
+aside{
+    background-color: #315E93;
+}
