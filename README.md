@@ -2,58 +2,33 @@
 
 ## MÓDULO: CSS
 
-### AULA: Seletores, Classes e Pseudo-classes
+### AULA: Box Model
 
-#### SELETORES:
+#### Box Model:
 
-`Por tag/elementos:`
+`Box Model:`
 
-    h1{ color:red; }
+    Se refere a como os elementos HTML são mostrados no navegador e como as dimensões desses elementos são derivadas das propriedades CSS
 
-`Seletor universal:`
+`Vamos criar um borda para entender melhor o Box Model:`
 
-    *{color:blue;}
-
-`Seletor de um elemento que esta dentro de outro elemento:`
-
-    p strong{color:red;}
-
-`Selecionar um elemento que esta logo depois de outro elemento:`
-
-    li + li + li {padding-left:15px;}
+    border: 1px solid black;
 
 
-`Selecionar por classe:`
+`Espaçamento entre o conteudo/texto do elemento e a borda:`
 
-    .sec{background-color:orange;}
-
-`Selecionar por id:`
-
-    #publicacoes{color:brown;}
-
-`Selecionar mais de um elemento usando varios tipos de seletores:`
-
-    #publicacoes, .sec, h1 {margin:20px;}
-
-`Selecionar um elemento específico que contém um atributo específico:`
-
-    a[href="#formacao"] {padding-left:50px}
+    padding: 10px;
 
 
-#### PSEUDO-CLASSES
+`espaçamento do nosso elemento para os outros, ou seja espaçamente da borda para fora:`
 
-`Quando tivermos o elemento focado ou passarmos o mouse por cima do elemento o nosso elemento ele muda de cor:`
+    margin:120px;
 
-    a:link {background-color: yellow;}
-    a:focus,a:hover {background-color: pink;}
+`por uma borda arredondado para nosso elemento:`
 
-`Acrescenta conteúdo dentro do nosso elemento,acrescenta no inicio:`
+    border-radius: 10px;
 
-    a:before { content: "Ola " }
+`Deixar nosso elemento com sombreamento:`
 
-`Acrescenta conteúdo dentro do nosso elemento,acrescenta no final:`
-
-    a:after { content: " Tchau" }
-
-
+    box-shadow: 5px 5px 5px black;
 
