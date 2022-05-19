@@ -6,7 +6,7 @@
 
 `Para pegar vídeo do YouTube:`
 
-    vá no vídeo do YouTube, clique em SHARE e vá na opção Embed, que te mostrara o código que você vai usar para o video na sua página
+    vá no vídeo do YouTube, clique em SHARE(compartilhar) e vá na opção Embed(Incorporar), que te mostrara o código que você vai usar para o video na sua página
 
 `Se você tiver um vídeo que é um arquivo .mb4 que esta no seu servidor ou na sua maquina,e você quer que ele seja exibido com controle para ele rodar no seu navegador, você pode fazer isso na sua página também com alguns elementos específicos, vamos ver esses elementos:`
 
