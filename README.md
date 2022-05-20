@@ -2,40 +2,14 @@
 
 ## MÓDULO: CSS
 
-### AULA: Fontes
+### AULA: Tipos de Mídia
 
-#### Fontes:
+#### Tipos de Mídia:
 
-`para usar uma fonte:`
+`Esta relacionado diretamente com o design responsivo`
 
-    font-family: Arial, Helvetica, sans-serif;
+`Criando um tipo de mídia para um tamanho determiando na tela:`
 
-`para por o tamanho da fonte:`
-
-    font-size: 10px;
-
-`outros tipos de estilizaçãod e fonte:`
-
-    font-style: italic;
-    font-weight: bold;
-    
-`tamanho da linha:`
-
-    line-height: 20px;
-
-`Para definir fontes que estão na internet e passar para o nosso site:`
-
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
-    </style>
-
-    font-family: 'Macondo', cursive;
-
-`caso a gente baixe uma fonte e queira pegar no nosso diretorio:`
-
-    @font-face{
-        font-family: "Supermercado One";
-        src: url(./Supermercado_One/SupermercadoOne-Regular.ttf);
+    @media screen and (max-width: 1024px) {
+        p{color:red;}
     }
-
-    font-family: "Supermercado One";

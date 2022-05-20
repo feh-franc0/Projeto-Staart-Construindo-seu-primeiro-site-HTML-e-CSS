@@ -37,3 +37,11 @@ article#habilidades{
 aside{
     background-color: #315E93;
 }
+
+@media screen and (max-width: 1024px) {
+    p{color:red;}
+}
+
+@media screen and (max-width: 840px) {
+    p{color: pink;}
+}
