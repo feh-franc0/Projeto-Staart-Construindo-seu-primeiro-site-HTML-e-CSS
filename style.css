@@ -1,6 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
+a{
+    background-color: #E5E5E5;
+    margin-left: 0px;
+    color: blue;
+    transition-property: background-color, margin-left, color;
+    transition-duration: 1s;
+}
+
+a:hover, a:focus{
+    background-color: yellow;
+    margin-left: 10px;
+    color: black;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,6 +46,7 @@ video{
 header{
     background-color: #E5E5E5;
     padding: 20px;
+    text-align: center;
 }
 
 h1,h2{
@@ -65,4 +85,21 @@ aside{
 
 @media screen and (max-width: 840px) {
     p{color: pink;}
+}
+
+@keyframes anima {
+    0%   {top:0px; left:5%;}
+    20%  {top:100px; left:20%;}
+    40%  {top:0px; left:35%;}
+    60%  {top:100px; left:50%;}
+    80%  {top:0px; left:65%;}
+    100% {top:100px; left:80%;}
+}
+
+nav{
+    position: absolute;
+    animation-name: anima;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }

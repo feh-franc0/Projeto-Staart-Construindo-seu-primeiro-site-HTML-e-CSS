@@ -2,23 +2,39 @@
 
 ## MÓDULO: CSS
 
-### AULA: CSS Grid
+### AULA: Animações
 
-#### CSS Grid:
+#### Animações:
 
-`CSS Grid:`
+`Animações:`
 
-    É um sistema de estrutura de layout que o CSS fornece. Ele permite configurar layouts em duas dimensões(linhas e colunas). A junção de linhas e colunas formam uma grade,o que dá o nome a esse sistema(GRID).
+    a{
+        background-color: #E5E5E5;
+        margin-left: 0px;
+        transition-property: background-color, margin-left;
+        transition-duration: 1s;
+    }
 
+    a:hover, a:focus{
+        background-color: yellow;
+        margin-left: 10px
+    }
 
-`GRID:`
+`Keyframes:`
 
-    display: grid;
-    grid-template
+- Keyframes nos permitem indicar o estado inicial e final do estilo CSS em uma animação. Nós podemos,inclusive,indicar o estado do estilo CSS em nenhum ou vários pontos de uma animação entre o início e o fim dela
 
+    @keyframes anima {
+        0% {top:0; left:0;}
+        30% {top: 50px;}
+        60% {left: 50px;}
+        100% {top:100px; left:100px;}
+    }
 
-`nomeando os elementos da grid:`
-
-    section{
-        grid-area: um;
+    nav{
+        position: absolute;
+        animation-name: anima;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
