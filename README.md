@@ -2,14 +2,23 @@
 
 ## MÓDULO: CSS
 
-### AULA: Tipos de Mídia
+### AULA: CSS Grid
 
-#### Tipos de Mídia:
+#### CSS Grid:
 
-`Esta relacionado diretamente com o design responsivo`
+`CSS Grid:`
 
-`Criando um tipo de mídia para um tamanho determiando na tela:`
+    É um sistema de estrutura de layout que o CSS fornece. Ele permite configurar layouts em duas dimensões(linhas e colunas). A junção de linhas e colunas formam uma grade,o que dá o nome a esse sistema(GRID).
 
-    @media screen and (max-width: 1024px) {
-        p{color:red;}
+
+`GRID:`
+
+    display: grid;
+    grid-template
+
+
+`nomeando os elementos da grid:`
+
+    section{
+        grid-area: um;
     }

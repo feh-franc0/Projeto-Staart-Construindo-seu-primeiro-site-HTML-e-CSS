@@ -5,6 +5,25 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main{
+    display: grid;
+    grid-template-areas:"um dois";
+    grid-template-columns: auto 200px;
+}
+
+section{
+    grid-area: um;
+}
+
+aside{
+    grid-area: dois;
+}
+
+video{
+    width: 150px;
+    margin: 20px;
+}
+
 header{
     background-color: #E5E5E5;
     padding: 20px;
@@ -39,7 +58,9 @@ aside{
 }
 
 @media screen and (max-width: 1024px) {
-    p{color:red;}
+    main{
+    display: block;
+    }
 }
 
 @media screen and (max-width: 840px) {
