@@ -4,75 +4,182 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portifolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <ul id="links">
                 <li><a href="#formacao">Formação</a></li>
-                <li><a href="#publicacoes">Publicações</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#publicacoes">Publicações</a></li>
             </ul>
         </nav>
-        <h1>Fernando Franco</h1>
+
+        <img src="imagens/fernando_logo.svg" alt="Fernando Franco">
+
+        <ul id="redes">
+            <li>
+                <a href="https://twitter.com/reinaldoferraz" target="_blink" rel="noreferrer noopener">
+                    <img src="images/twitter.svg" alt="Twitter">
+                </a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/in/reinaldoferraz" target="_blink" rel="noreferrer noopener">
+                    <img src="images/linkedin.svg" alt="linkedin">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/seu-usuario" target="_blink" rel="noreferrer noopener">
+                    <img src="images/github.svg" alt="GitHub">
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.com/+55912345678" target="_blink" rel="noreferrer noopener">
+                    <img src="images/whatsapp.svg" alt="WhatsApp">
+                </a>
+            </li>
+        </ul>
+
     </header>
     <main>
-        <section>
-            <article class="sec" id="formacao">
-                <h2>Formação</h2>
-                    <h3>Universidade Anhembi Morumbi</h3> 
-                    <p><strong>Pós graduação em Design de hipermídia</strong>, concuído em dezembro de 2002</p>
-                    <h3>Universidade Anhembi Morumbi</h3>
-                    <p><em>graduação Educação artística com ênfase</em> em computação gráfica e multimídia, concluído em dexembro de 1998</p>
-            </article>
-            <article class="sec" id="publicacoes">
-                <h2>Publicaoções</h2>
-                    <h3>Acessibilidade na Web - Boas práticas para desenvolver sites e aplicações acessíveis</h3>
-                    <p>Neste livro, Reinaldo Ferraz aborda o tema da Acessibilidade na Web, desde os conceitos básicos, até as especificidades relativa aos seus diversos públicos, com uma introdução sobre as várias diretrizes e leis existentes. Você conhecerá as barreiras de acesso que temos de derrubar e quais as principais orientações para implementação, manutenção, avaliação correção e divulgação, até as mais recentes e refinadas técnicas de acessibilidade para a rede.</p>
+            <section id="inicio">
+                <h1>
+                    Especialista em<span>tecnologias web</span>
+                </h1>
+                <img src="imagens/fernando.png" alt="Fernando Franco">
+            </section>
+            <section id="formacao">
+                <div id="conteudo-formacao">
+                    <h2>Formação</h2>
 
-                    <h3>Tendências da Web</h3>
-                    <p>Nesta publicação, apresentamos em detalhes as principais tendências da web, além de um pouco da sua história, desde a evolução da linguagem de marcação até a chegada da web semântica e da wed de dados. Também vamos nos aprofundar nas novas formas de consumo de conteúdo na web, como conteúdo multimídia, publicações digitais e até dispositivos conectados à internet das coisas, tratando ainda de temas como pagamentos online, segurança e privacidade. Por fim, tentamos vislumbrar como sesá a web de amanhã e nossa vida no futuro digital
-                    </p>
-            </article>
-            <article class="sec" id="habilidades">
-                <h2>Habilidades</h2>
-                <ul>
-                    <li> <img src="https://www.reinaldoferraz.com.br/aula/Group 20.png" alt="html5"> </li>
-                    <li> <img src="https://www.reinaldoferraz.com.br/aula/Group 15.png" alt="CSS3"> </li>
-                    <li> <img src="https://www.reinaldoferraz.com.br/aula/Group 22.png" alt="JAVASCRIPT"> </li>
-                    <li> <img src="https://www.reinaldoferraz.com.br/aula/Group 18.png" alt="PHP"> </li>
-                    <li> <img src="https://www.reinaldoferraz.com.br/aula/Group 19.png" alt="Acessibilidade"> </li>
-                </ul>
-            </article>
-        </section> 
-        <aside>
-            <h2>Vídeos em destaques</h2>
+                    <ul id="lista-formacao">
+                        <li class="formacao-item">
+                            <img src="images/anhembi_morumbi.png" alt="Anhembi Morumbi">
 
-            <video muted controls poster="http://www.reinaldoferraz.com.br/aula/reinaldo.jpg">
-                <source src="http://www.reinaldoferraz.com.br/aula/video01.mp4" type="video/mp4">
-                Seu navegador não suporta vídeos.
-            </video>
+                            <div>
+                                <h3>Graduação Educação artística com ênfase em computação gráfica e multimídia</h3>
 
-        </aside>
+                                <span>
+                                    <p class="onde">Universidade Anhembi Morumbi</p>
+                                    <p class="quando">concluído em Dezembro de 1998</p>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="formacao-item">
+                            <img src="images/anhembi_morumbi.png" alt="Anhembi Morumbi">
+
+                            <div>
+                                <h3>Pós graduação em Design de hipermídia</h3>
+
+                                <span>
+                                    <p class="onde">Universidade Anhembi Morumbi</p>
+                                    <p class="quando">Concuído em dezembro de 2002</p>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="habilidades">
+                <div id="conteudo-habilidades"> 
+                    <h2>
+                        <span>Minhas</span>
+                        Habilidades
+                    </h2>
+
+                    <ul>
+                        <li class="tecnologia">
+                            <img src="images/icone_html.png" alt="HTML5">
+                            <p>HTML</p>
+                        </li>
+                        <li class="tecnologia">
+                            <img src="images/icone_css.png" alt="CSS3">
+                            <p>HTML</p>
+                        </li>
+                        <li class="tecnologia">
+                            <img src="images/icone_javascript.png" alt="JavaScript">
+                            <p>JavaScript</p>
+                        </li>
+                        <li class="tecnologia">
+                            <img src="images/icone_acessibilidade.png" alt="Acessibilidade">
+                            <p>Acessibilidade</p>
+                        </li>
+                        <li class="tecnologia">
+                            <img src="images/icone_php.png" alt="PHP">
+                            <p>PHP</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="publicacoes">
+                <div id="conteudo-publicacoes">
+                    <h2>
+                        <span>Minhas</span>
+                        Publicações
+                    </h2>
+
+                    <article class="publicacao">
+                        <img src="images/capa_acessibilidade_na_web.png" alt="Acessibilidade na Web - Boas práticas para desenvolver sites e aplicações acessíveis">
+                        <div>
+                            <h3>Acessibilidade na Web - Boas práticas para desenvolver sites e aplicações acessíveis</h3>
+                            <p>
+                                Neste livro, Reinaldo Ferraz aborda o tema da acessibilidade na Web, desde os conceitos básicos,até as específicidades relativas aos seus diversos públicos, com uma introdução sobre as várias diretrizes e leis existentes. Você conhecerá as barreiras de acesso que temos de derrubar e quais as principais orientações para implementação, manutenção, avaliação, correção e divulgação, até as mais recentes e refinadas técnicas de acessibilidade para a rede.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="publicacao">
+                        <img src="images/capa_tendencias_web.png" alt="Tendências da Web">
+                        <div>
+                            <h3>Tendências da Web</h3>
+                            <p>
+                                Neste livro, apresentamos em detalhes as principais tendências da web, além de um pouco da sua história, desde a evolução da linguagem de marcação até a chegada da web semântica e da web de dados.Também vamos nos aprofundar nas novas formas de cconsumo de conteúdo na web, como conteúdo multimídia, publicações digitais e até dispositivos conectados à internet das coisas, tratando ainda de temas como pagamentos online, segurança e privacidade.Por fim, tentamos vislumbrar como será a web de amanhâ e nossa vida no futuro digital.
+                            </p>
+                        </div>
+                    </article>    
+                    <article class="publicacao">
+                        <img src="images/capa_acessibilidade_na_web2.png" alt="Acessibilidade na Web">
+                        <div>
+                            <h3>Acessibilidade na Web</h3>
+                            <p>
+                                O livro aponta as principais técnicas de desenvolvimento para tornar um página Web acessível.Entre os temas abordados estão uma breve apresentação sobre a importância da acessibilidade na web, exemplos de como os padrôes Web podem ajudar no processo para que uma página seja acessível e as técnicas de como fazê-lo. O livro trata ainda do impacto que essa acessibilidade tem para as pessoas com deficiência e reforça como ela é relevante para todas as pessoas em geral. O objetivo desta obra é trazer ao leitor, de forma simples, a importância da acessibilidade na Web, apresentando quem são os beneficiados e quais são as principais barreiras de acessoàs páginas, bem como maneiras de solucioná-las.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="publicacao">
+                        <img src="images/capa_coletanea_front_end.png" alt="Coletânea Front-end">
+                        <div>
+                            <h3>Coletânea Front-end</h3>
+                            <p>
+                                Este livro quer ser uma pequena celebração desse sucesso. Um grupo de 11 autores de renome nacional na comunidade se juntou para escrever artigos que julgamos relevantes para a Web. Os capítulos são independentes, cada um com seu autor. A única regra era: escrever algo memorável, que fizesse a diferença na Web brasileira.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
     </main>
     <footer>
-        <h2>Entre em contato</h2>
-        <form>
-            <fieldset>
-                <legend>Dados Pessoais</legend>
-                <label for="nome">Nome</label><input type="text" id="nome" name="nome" placeholder="Digite seu nome">
-                <label for="email">E-mail</label><input type="email" id="email" value="fulano@br.com" disabled="true">
-            </fieldset>
-            <fieldset>
-                <legend>Dados Comerciais</legend>
-                <label for="tel">Telefone</label><input type="tel" id="tel" required="true">
-                <label for="url">Website</label><input type="url" id="url">
-            </fieldset>
-            <input type="submit" value="Enviar Mensagem" id="submit">
+        <div id="conteudo-footer">
+            <div id="titulo-footer">
+                <h2>Entre em contato</h2>
+                <p>Me mande uma mensagem!</p>
+            </div>
 
-        </form>
+            
+            <form>
+                <input type="text" placeholder="Nome" required="true">
+                <input type="email" placeholder="E-mail" required="true">
+                <input type="tel" placeholder="Telefone" required="true">
+                <textarea 
+                    placeholder="Mensagem" 
+                    rows="7"
+                    autocapitalize="sentences"
+                    required="true"
+                ></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </footer>
 </body>
 </html>
